@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+a {
+  color: black !important;
+}
+
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+}
+
+.mycard {
+  margin-top: 8rem;
+}
+
+.auth-card {
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center;
+  max-width: 400px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card .card-image img  {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.homeimage{
+  width: 500px;
+  height: 500px;
+  object-fit: cover; 
+}
+
+/* dashboard */
+.dashboard{
+  max-width: 100vw;
+  max-height: 100vh;
+}
+.main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 90px;
+}
+
+.home-card {
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+.home-card h1 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.home-card .card-header{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.home-card .card-header .dp{
+  margin: 10px;
+}
+.home-card .card-header .dp img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.home-card .card-header span{
+  margin-top: -10px;
+  font-size: medium;
+}
+.icons {
+  margin-left: -8px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: start;
+  
+  margin-bottom: 10px;
+}
+
+.icons button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* // right */
+
+.rightbox{
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  left: 40%;
+  height: 100px;
+  width: 350px;
+  background-color: rebeccapurple;
+  margin: 20px;
+}
+
+#toast-container{
+  top: 40px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+
+
+.time{
+  font-size: 10px;
+  font-weight: 400;
+  color: #8e8e8e;
+  color: rgba(var(--f52,142,142,142),1);
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* galery */
+
+.gallery .item{
+  margin: 10px;
+  height: 376px;
+  object-fit: fill;
+  width: 270px;
+}
+
+.collection-item{
+  width: 100%;
+}
